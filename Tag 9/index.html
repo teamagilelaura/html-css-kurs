@@ -8,13 +8,28 @@
 
   <style>
     .header {
-      position: fixed;
       left: 0;
       top: 0;
       right: 0;
-      background-color: black;
+      background-color: grey;
       color: white;
       display: flex;
+    }
+
+    a:link,
+    a:active,
+    a:visited,
+    a:hover {
+      color: black;
+      text-decoration: none;
+    }
+
+    .header__share {
+      position: fixed;
+      float: right;
+      display: flex;
+      top: 0;
+      right: 0;
     }
   </style>
 
@@ -46,8 +61,7 @@
 
     <div class="header__share">
       <a href="#" aria-label="Diese Seite teilen">
-
-        <img src="share.svg" alt="share">
+        <img src="share.svg" alt="share">share
       </a>
     </div>
 
